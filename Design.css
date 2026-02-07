@@ -1,0 +1,84 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header image container */
+.header {
+    position: relative;
+    width: 100%;
+}
+
+/* Background image */
+.header img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Header content overlay */
+.headercontent {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6); /* dark overlay */
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 15px 40px;
+    list-style: none;
+}
+
+/* Logo section */
+.navbar .image img {
+    height: 40px;
+    margin-right: 40px;
+}
+
+/* Navigation links */
+.navbar li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.navbar li a:hover {
+    color: #00b4ff;
+}
+
+/* Contact Us button */
+.navbar button {
+    margin-left: auto;
+    padding: 8px 18px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.navbar button:hover {
+    background-color: white;
+    color: black;
+}
+
+div .image2
+{
+    height: 350px;
+    position: relative;
+    left: 75%;
+    top: -550px;
+}
